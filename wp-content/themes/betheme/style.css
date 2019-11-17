@@ -1,0 +1,161 @@
+/*
+Theme Name: Betheme
+Author: Muffin group
+Description: The biggest WordPress Theme ever
+Theme URI: http://themes.muffingroup.com/betheme
+Author URI: http://muffingroup.com
+License: Themeforest Split Licence
+License URI: -
+Version: 17.1
+
+All css files are placed in /css/ folder
+*/
+@media only screen and (min-width: 320px) and (max-width: 768px){
+    
+    body:not(.template-slider):not(.header-simple) #Header {
+    min-height: 0 !important;
+    background-position: center 202px;
+}
+}
+hr {
+    background: linear-gradient(135deg, #2f94e2 0%, #31ffe8 100%) !important;
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 70px;
+    height: 3px;
+}
+#Top_bar .menu li ul {
+   border-top: 2px solid #2f9ae2;
+}
+.boxicon .scale-with-grid {
+
+    border-radius: 50%;
+    width: 29%;
+margin-top: 21px;
+}
+.column.mcb-column.one-third.column_icon_box.boxicon:hover .scale-with-grid {
+-webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+ animation-duration: 0.5s, 1s;
+}
+.column.mcb-column.one-third.column_icon_box.boxicon:hover{
+ box-shadow: 1px 1px 6px 3px #D3D3D3;
+
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+.button_label {
+    background: linear-gradient(135deg, #2f94e2 0%, #31ffe8 100%);
+}
+.fone {
+    float: left;
+    width: 50%;
+}
+.ftwo {
+    float: right;
+    width: 50%;
+}
+.fthree {
+    float: left;
+    width: 50%;
+}
+.ffour {
+    float: right;
+    width: 50%;
+}
+.section1{
+width: 100%;
+}
+.section2{
+width: 99%;
+margin-top: 17%;
+}
+.widget_archive ul, .widget_nav_menu ul {
+    list-style-type: none;
+    padding: 0px;
+}
+.widget_archive ul li::after, .widget_nav_menu ul li::after {
+    border-style: none;
+}
+.flaticn .scale-with-grid {
+    border-radius: 52%;
+    width: 27%;
+    border: 2px dotted;
+}
+.postbox .column_attr.clearfix {
+    box-shadow: 0 5px 10px #ccc;
+}
+.column.mcb-column.one-fourth.column_icon_box.flaticn:hover {
+    background: #333 none repeat scroll 0 0;
+    border-color: #333;
+}
+.idea_box, .ui-tabs, .accordion .question, .accordion .question.active .title, .accordion .question .title::before, .ui-tabs .ui-tabs-nav, .ui-tabs .ui-tabs-nav li, .tabs_vertical.ui-tabs .ui-tabs-panel, table th, table td, .list_item .circle, input[type="date"], input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], select, textarea, .promo_box.has_border::after, dl > dt, dl > dd, .article_box .desc_wrapper p, a.icon_bar, a.content_link, .how_it_works .image, .opening_hours, .opening_hours .opening_hours_wrapper li, .icon_box.has_border::after, .chart_box::before, .pricing-box, .team_list .bq_wrapper, .post-footer .post-links, .format-link .post-title .icon-link, .share_wrapper, .post-header .title_wrapper, .section-post-related .section-related-adjustment, #comments > :first-child, .widget-area, .widget::after, .fixed-nav .desc h6, .portfolio_group.list .portfolio-item, .portfolio_group .portfolio-item .desc .details-wrapper, .Recent_posts ul li .desc h6, .widget_recent_entries ul li a, .woocommerce .widget_best_sellers li, .woocommerce .widget_featured_products li, .woocommerce .widget_recent_reviews li, .woocommerce .widget_recent_products li, .woocommerce .widget_recently_viewed_products li, .woocommerce .widget_random_products li, .woocommerce .widget_top_rated_products li, .woocommerce .widget_onsale li, .woocommerce .widget_layered_nav li, .woocommerce .widget_shopping_cart ul.product_list_widget li, .woocommerce .widget_products li, .woocommerce .product .related.products, .woocommerce .product .upsells.products, .woocommerce .product div.entry-summary h1.product_title::after, .woocommerce .quantity input.qty, .header-stack #Top_bar .logo, .offer_thumb .slider_pagination, .offer_thumb .slider_pagination a, .Latest_news ul li .desc_footer, .Latest_news ul li .photo, .offer_thumb.bottom .slider_pagination a, .style-simple .faq .question, .style-simple #Filters .filters_wrapper ul, #edd_checkout_cart th, #edd_checkout_cart td {
+
+    border-color: transparent;
+    border: none;
+}
+.ratings .column.mcb-column.one.column_column.column-margin- {
+    background: linear-gradient(135deg, #2f94e2 0%, #31ffe8 100%);
+    color: #fff;
+}
+.ratings p {
+    margin-top: 13px;
+    font-size: 15px;
+    font-weight: 300;
+}
+.boxicon .title {
+    margin-bottom: 37px;
+}
+body:not(.template-slider) #Header {
+    min-height: 0px;
+}
+#Subheader {
+   padding: 59px 0;
+}
+.column.mcb-column.one.column_column.test.column-margin- {
+    background: linear-gradient(135deg, #2f94e2 0%, #31ffe8 100%);
+    color: #ffffff;
+}
+.myportfolio .title_wrapper {
+    display: none;
+}
+.technology .icon_box:hover .icon_wrapper::before, .icon_box a:hover .icon_wrapper::before {
+    background: linear-gradient(135deg, #2f94e2 0%, #31ffe8 100%);
+}
+.mobility .image_wrapper:hover {
+    box-shadow: 3px 4px 11px 6px #D3D3D3;
+}
+.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+ border: 1px solid #000;
+ }
+.wpcf7-form-control.wpcf7-textarea {
+ border: 1px solid #000;
+}
+.wpcf7-form-control.wpcf7-text {
+ border: 1px solid #000;
+}
+.column.mcb-column.one-fourth.column_icon_box.boxicon:hover {
+    box-shadow: 1px 1px 6px 3px #D3D3D3;
+}
+.column.mcb-column.one-fourth.column_icon_box.boxicon:hover .scale-with-grid {
+    animation: mover 1s infinite alternate;
+    animation-duration: 1s;
+    animation-duration: 1s;
+    animation-duration: 1s;
+    animation-duration: 0.5s, 1s;
+}
+.column.mcb-column.one-third.column_column.brinq.column-margin- {
+    margin-top: -3%;
+}
+.column_column ul, .column_column ol, .the_content_wrapper ul, .the_content_wrapper ol {
+    color: #626262 !important;
+}
+.section.mcb-section.linear {
+    background: linear-gradient(135deg, #2f94e2d6 0%, #31ffe8cc 100%);
+}

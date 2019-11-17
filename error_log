@@ -1,0 +1,1 @@
+[21-Oct-2019 06:14:46 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/ph67ikbcu7pb/public_html/wordpress/mobiwebtech/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/waf.php on line 1928
